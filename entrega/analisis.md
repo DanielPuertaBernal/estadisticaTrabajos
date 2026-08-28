@@ -2,9 +2,10 @@
 
 **Curso:** Estadística III — Ingeniería de Sistemas
 **Universidad Católica de Oriente**
+**Integrantes:** Daniel Puerta Bernal · Juan Diego Guzmán
 
 Análisis de los diez ejercicios y del punto opcional. El código que produce cada
-resultado está en `Taller_EDA_Puerta_Bernal.py`, y las figuras en `figuras/`.
+resultado está en `Taller_EDA_Puerta_Guzman.py`, y las figuras en `figuras/`.
 Los datos son `data/07 - canciones.csv` (2000 canciones, 18 columnas).
 
 ---

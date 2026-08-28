@@ -2,6 +2,7 @@
 # TALLER 07 - ESTADISTICA DESCRIPTIVA Y ANALISIS EXPLORATORIO DE DATOS (EDA)
 # Curso: Estadistica III - Ingenieria de Sistemas
 # Universidad Catolica de Oriente
+# Integrantes: Daniel Puerta Bernal - Juan Diego Guzman
 # ==============================================================================
 
 from pathlib import Path

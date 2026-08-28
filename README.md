@@ -27,7 +27,7 @@ Stack: pandas, numpy, matplotlib, seaborn, jupyterlab, openpyxl.
 
 ## Dataset notes
 
-`Taller_EDA_Puerta_Bernal.py` reads `data/07 - canciones.csv` (2000 rows x 18 columns). The `.xlsx`
+`Taller_EDA_Puerta_Guzman.py` reads `data/07 - canciones.csv` (2000 rows x 18 columns). The `.xlsx`
 in the same folder is an **older 17-column export without the `explicit`
 column**; it is kept only for reference.
 
@@ -44,7 +44,7 @@ Findings from the inspection:
 
 ## Deliverable
 
-`Taller_EDA_Puerta_Bernal.py` - the code: `#%%` cells with the ten exercises in
+`Taller_EDA_Puerta_Guzman.py` - the code: `#%%` cells with the ten exercises in
 order. `figuras/` holds the five generated charts to attach.
 
 The written analyses live in the `analisis-parte-*.md` reports, one per part of
