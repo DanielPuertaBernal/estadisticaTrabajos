@@ -24,21 +24,20 @@ Correlación entre ambas series: 0.504. Cada año aporta entre 74 y 115 cancione
 
 ---
 
-La hipótesis se confirma. El tempo de baile solo domina las listas durante el
-quinquenio 2010-2014 y después regresa exactamente a su nivel de partida, de
-modo que la moda alta del histograma del ejercicio 6 no es un rasgo permanente
-del pop sino el residuo estadístico de una ventana concreta. En 2012 llegó a
-representar casi la mitad de los éxitos del año.
+La hipótesis se confirma. El tempo de baile solo manda en las listas entre 2010
+y 2014, y después vuelve al mismo nivel que tenía antes. En 2012 casi la mitad
+de los éxitos del año estaban en esa banda. O sea que el segundo pico del
+histograma del ejercicio 6 no es algo permanente del pop: es la huella que
+dejaron esos cinco años.
 
-Lo inesperado es que la etiqueta de género no acompaña esa caída. Las canciones
-marcadas como Dance/Electronic se cuadruplican hacia 2010 y se mantienen altas
-hasta 2019, cuando el tempo característico ya había desaparecido. Después de
-2014 las dos series se separan: el pop de listas siguió etiquetándose como
-música de baile, pero dejó de sonar a 128 BPM. La etiqueta sobrevivió a la
-convención sonora que la definía.
+Lo que no esperábamos es que la etiqueta no cayera junto con el tempo. Las
+canciones marcadas como Dance/Electronic se multiplican por cuatro hacia 2010 y
+siguen altas hasta 2019, cuando el tempo característico ya había desaparecido.
+Desde 2014 las dos líneas se separan: el pop siguió llamándose música de baile,
+pero dejó de sonar a 128 BPM. Se quedó el nombre y se fue el sonido.
 
-Conviene señalar los límites de esta lectura. La correlación entre ambas series
-es moderada, y el conjunto solo contiene canciones que ya fueron éxitos, de modo
-que nada puede afirmarse sobre la producción musical que no llegó a las listas.
-Tampoco puede concluirse causalidad: la coincidencia temporal con el auge del
-EDM es consistente con la explicación del ejercicio 6, pero no la demuestra.
+Hay que aclarar hasta dónde llega esto. La correlación entre las dos series es
+moderada, y el conjunto solo trae canciones que ya fueron éxitos, así que no
+podemos decir nada sobre la música que no llegó a las listas. Tampoco podemos
+hablar de causa: que las fechas coincidan con el auge del EDM encaja con lo que
+dijimos en el ejercicio 6, pero no lo demuestra.
