@@ -6,7 +6,7 @@ Coursework for **Estadística III** — Ingeniería de Sistemas, Universidad Cat
 
 **Taller 07 — Estadística descriptiva y análisis exploratorio de datos (EDA)**
 See [`07 - Taller estadistica descriptiva y EDA.md`](07%20-%20Taller%20estadistica%20descriptiva%20y%20EDA.md)
-for the full brief. Dataset: `data/07 - canciones.csv` (2000 rows x 17 columns,
+for the full brief. Dataset: `data/07 - canciones.csv` (2000 rows x 18 columns,
 global hit songs, 1998-2020).
 
 ## Environment
@@ -27,7 +27,7 @@ Stack: pandas, numpy, matplotlib, seaborn, jupyterlab, openpyxl.
 
 ## Dataset notes
 
-`main.py` reads `data/07 - canciones.csv` (2000 rows x 18 columns). The `.xlsx`
+`Taller_EDA_Puerta_Bernal.py` reads `data/07 - canciones.csv` (2000 rows x 18 columns). The `.xlsx`
 in the same folder is an **older 17-column export without the `explicit`
 column**; it is kept only for reference.
 
