@@ -7,7 +7,7 @@ Coursework for **Estadística III** — Ingeniería de Sistemas, Universidad Cat
 **Taller 07 — Estadística descriptiva y análisis exploratorio de datos (EDA)**
 See [`07 - Taller estadistica descriptiva y EDA.md`](07%20-%20Taller%20estadistica%20descriptiva%20y%20EDA.md)
 for the full brief. Dataset: `data/07 - canciones.csv` (2000 rows x 17 columns,
-global hit songs 2000-2019).
+global hit songs, 1998-2020).
 
 ## Environment
 
@@ -27,10 +27,22 @@ Stack: pandas, numpy, matplotlib, seaborn, jupyterlab, openpyxl.
 
 ## Dataset notes
 
-Findings from the initial inspection of `data/07 - canciones.csv`:
+`main.py` reads `data/07 - canciones.csv` (2000 rows x 18 columns). The `.xlsx`
+in the same folder is an **older 17-column export without the `explicit`
+column**; it is kept only for reference.
 
-- The brief describes an `explicit` column that **is not present** in either the
-  `.csv` or the `.xlsx`. Exercises 5 and 7 depend on it.
-- Genres are multi-valued and separated by `"; "`, not by commas as the brief states.
-- No null values, but 59 fully duplicated rows.
+Findings from the inspection:
+
+- No null values, but **59 fully duplicated rows**.
+- `popularity` is 0 for **126 songs** - almost certainly a missing-value
+  sentinel rather than a real measurement.
+- `genre` is multi-valued (1279 of 2000 cells) and comma-separated; **22 songs**
+  carry the literal `set()`, a missing genre that `isna()` does not detect.
+- `year` spans **1998-2020**, not 2000-2019 as the brief states (42 songs fall
+  outside that range).
 - `key` and `mode` are integers encoding categories, not quantities.
+
+## Analysis documents
+
+- `analisis-parte-2.md` - exercises 3, 4, 5
+- `analisis-parte-3.md` - exercises 6, 7
