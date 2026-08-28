@@ -6,26 +6,26 @@ Se carga `data/07 - canciones.csv` con `pandas.read_csv()` y se inspeccionan las
 primeras cinco filas. Se usa el `.csv` y no el `.xlsx` porque solo el primero
 incluye la columna `explicit`, necesaria en los ejercicios 5 y 7.
 
-## Ejercicio 2 — ¿Requiere limpieza el conjunto?
+## Ejercicio 2 — Análisis
 
-**Sí.** La verificación de nulos devuelve cero en las 18 columnas, pero eso no
-significa que el conjunto esté limpio: los datos faltantes de este archivo
-llegan disfrazados de valores válidos y `isna()` no los detecta. Hay 59 filas
-duplicadas exactas, 126 canciones con `popularity` igual a 0 y 22 con `genre`
-igual a `"set()"`. Un índice de popularidad de exactamente cero en una canción
-que figuró en las listas globales no es una medición creíble, y el propio
-conjunto lo confirma: cinco canciones aparecen dos veces con atributos de audio
-idénticos y popularidades de 0 frente a valores entre 66 y 77. El 0 no mide
-impopularidad, señala que el dato no se registró. El literal `set()`, por su
-parte, es un conjunto vacío de Python que quedó escrito como texto.
+**Resultados:** 2000 filas, 18 columnas, 0 valores nulos en todas las columnas.
 
-A esto se suma que `key` y `mode` están tipadas como enteros aunque codifican
-categorías —las doce tonalidades y los modos menor y mayor—, por lo que
-cualquier promedio sobre ellas carece de sentido y quedan excluidas de todo
-cálculo. El enunciado pide indicar y justificar la necesidad de limpieza, no
-ejecutarla, de modo que se conservan las 2000 filas: eliminar los duplicados
-mueve los estadísticos menos de una décima y no altera ninguna conclusión. Lo
-que sí se trata de forma explícita es cada dato faltante donde interviene —se
-excluye `set()` del conteo de géneros y se reporta la mediana en lugar de la
-media en el ejercicio 4—, sin borrar filas que conservan atributos de audio
-válidos.
+**Pregunta:** ¿el conjunto requiere limpieza antes de continuar?
+
+Sí, aunque `isna()` no marque nulos. Hay problemas de calidad que no se detectan
+como "faltantes" pero sí condicionan el análisis:
+
+- 59 filas duplicadas exactas tienen el mismo artista, canción y todos sus
+  atributos.
+- 126 canciones con `popularity = 0`, un 0 en un éxito global que no es tan
+  creíble. Hay canciones que aparecen dos veces, una con 0 y otra con una
+  popularidad real, por ejemplo *Hotline Bling* con 0 y con 77. El 0 es un dato
+  faltante que no es tan claro, no una medición.
+- 22 filas con `genre = "set()"`, texto residual de Python que no es un género
+  real.
+- `key` y `mode` son categorías codificadas como números, que son tonalidad y
+  modo musical y no cantidades, por lo que no tiene sentido calcular su media.
+
+La decisión fue no eliminar filas, ya que su efecto sobre las medidas es mínimo
+—menos del 3 % del conjunto de los datos— y no cambia ninguna conclusión del
+taller.

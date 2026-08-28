@@ -7,26 +7,31 @@
 canción, con 211 160 ms, queda en 3.52 minutos: una duración plausible que
 confirma que el factor de conversión es correcto.
 
-## Ejercicio 4 — Media frente a mediana de `popularity`
+## Ejercicio 4 — Análisis
 
-La media de `popularity` es 59.87 y la mediana 65.5. Que la media quede casi seis
-puntos **por debajo** de la mediana indica una distribución asimétrica hacia la
-izquierda, con una cola larga de valores bajos; el coeficiente de asimetría lo
-confirma con −1.824. La mayoría del catálogo se concentra en niveles de
-popularidad altos —el 50 % central va de 56 a 73—, pero un grupo minoritario de
-canciones con valores muy bajos arrastra el promedio hacia abajo. El origen de
-esa cola es identificable: 126 canciones registran popularidad exactamente 0,
-valor que funciona como marcador de dato faltante y no como una medición real.
+**Resultados:**
 
-**Para describir la popularidad típica con un solo número reportaría la
-mediana, 65.5.** La media está contaminada por esos 126 ceros, que incorpora
-como si fueran mediciones legítimas; la mediana, al depender solo de la posición
-central, apenas se altera. Además, la media únicamente representa bien al caso
-típico cuando la distribución es aproximadamente simétrica, condición que aquí
-no se cumple. De las otras dos variables, `duration_min` muestra el patrón
-inverso —media ligeramente por encima de la mediana, con cola hacia las
-canciones largas— y `danceability` es prácticamente simétrica, de modo que en
-ella la media sí resulta un resumen razonable.
+| | duration_min | popularity | danceability |
+|---|---|---|---|
+| media | 3.81 | 59.87 | 0.667 |
+| mediana | 3.72 | 65.50 | 0.676 |
+| desv. estándar | 0.65 | 21.34 | 0.140 |
+| mínimo | 1.88 | 0.00 | 0.129 |
+| máximo | 8.07 | 89.00 | 0.975 |
+
+**Pregunta:** compare media y mediana de `popularity`. ¿Qué indica esa
+diferencia? ¿Cuál reportaría usted como valor "típico" y por qué?
+
+La media (59.87) es menor que la mediana (65.5). Esa diferencia indica una
+distribución con asimetría negativa: hay un grupo de canciones con popularidad
+muy baja, incluyendo 126 casos en exactamente 0, que en realidad son datos
+faltantes que aparecen como 0 y no canciones genuinamente sin popularidad. Ese
+grupo arrastra la media hacia abajo, mientras la mayoría del catálogo se
+concentra en valores más altos.
+
+Reportaría la **mediana** como valor típico, porque no se ve afectada por esos
+valores extremos bajos y refleja mejor dónde se agrupa realmente la mayor parte
+de las canciones.
 
 ## Ejercicio 5 — Géneros más frecuentes y canciones explícitas
 
