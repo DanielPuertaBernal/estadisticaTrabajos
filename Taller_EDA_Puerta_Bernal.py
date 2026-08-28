@@ -295,12 +295,11 @@ print("=" * 78)
 
 print("\n--- Punto opcional: la huella del EDM en el tempo de los exitos ---")
 
-# PREGUNTA: en el ejercicio 6 se atribuyo la moda de 125-130 BPM a la corriente
-# EDM que domino las listas. Si esa explicacion es correcta, la proporcion de
-# exitos con tempo de baile debe crecer y decrecer con esa moda a lo largo de
-# los anos. Se compara contra la etiqueta de genero para separar el sonido de
-# la etiqueta. Se acota a 2000-2019 porque los anos de los extremos tienen
-# muy pocos registros.
+# PREGUNTA: ¿el auge del EDM dejo una huella medible en el tempo de los exitos
+# globales? Si la moda de 125-130 BPM del ejercicio 6 se debe al EDM, su peso
+# debe subir durante los anos de auge y bajar despues. Se contrasta con la
+# etiqueta Dance/Electronic para separar el sonido de la etiqueta, y se acota a
+# 2000-2019 porque 1998, 1999 y 2020 tienen muy pocos registros.
 
 periodo = df[(df["year"] >= 2000) & (df["year"] <= 2019)].copy()
 periodo["tempo_baile"] = periodo["tempo"].between(120, 135)

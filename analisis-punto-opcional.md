@@ -1,15 +1,16 @@
 # Punto opcional — Análisis
 
-**Pregunta:** en el ejercicio 6 se atribuyó la moda de 125-130 BPM del
-histograma a la corriente EDM, pero esa explicación quedó como afirmación sin
-comprobar. ¿Sostienen los datos esa atribución?
+**Pregunta:** ¿el auge del EDM dejó una huella medible en el tempo de los
+éxitos globales?
 
-**Hipótesis:** si el auge del EDM es la causa de esa moda, la proporción de
-éxitos con tempo de baile —la banda de 120-135 BPM— debería crecer y decrecer a
-lo largo de los años siguiendo esa ola, en lugar de mantenerse constante. Para
-distinguir el sonido de la etiqueta comercial, la serie se contrasta con el
-porcentaje de canciones marcadas como Dance/Electronic. El análisis se acota a
-2000-2019 porque 1998, 1999 y 2020 tienen muy pocos registros.
+**Hipótesis:** en el ejercicio 6 se atribuyó a la corriente EDM la moda de
+125-130 BPM del histograma, pero esa explicación quedó sin comprobar. Si es
+correcta, la proporción de éxitos en esa banda de tempo no debería ser constante
+a lo largo de los años: tendría que subir durante los años de auge del EDM y
+bajar después. Para distinguir el sonido de la etiqueta comercial, la serie se
+contrasta con el porcentaje de canciones marcadas como Dance/Electronic. El
+análisis se acota a 2000-2019 porque 1998, 1999 y 2020 tienen muy pocos
+registros.
 
 **Resultados:**
 
