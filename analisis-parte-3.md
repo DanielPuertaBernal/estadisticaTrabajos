@@ -2,33 +2,13 @@
 
 ## Ejercicio 6 — Análisis
 
-**Resultados:** histograma de `tempo` con 40 intervalos y una línea vertical
-roja en la media, situada en 120.12 BPM. La mediana es 120.02 BPM.
+**Resultado:** media de `tempo` ≈ 120.1 BPM (línea roja del histograma).
 
-**Pregunta:** ¿en qué rango de BPM se concentra la mayor parte del repertorio?
-¿La distribución es unimodal o aparecen varias concentraciones? Si observa más
-de un pico, proponga una explicación musical.
+**Pregunta:** ¿en qué rango se concentra el repertorio? ¿Es unimodal o hay varios picos? Si hay más de uno, proponga una explicación musical.
 
-El repertorio se concentra entre 90 y 140 BPM, franja que reúne el 67.7 % de las
-canciones; el 50 % central es aún más estrecho, entre 99 y 134 BPM. Fuera de esa
-banda la densidad cae rápidamente: por debajo de 75 BPM hay 33 canciones y por
-encima de 180 BPM menos de 50, sobre un total de 2000.
+La mayor parte de las canciones se concentra entre 90 y 140 BPM, con un pico cerca de 120 BPM, tempo característico de géneros bailables como el pop y el hip hop, que dominan el catálogo.
 
-La distribución no es unimodal. Aparecen dos concentraciones claras, una
-alrededor de 95-105 BPM y otra, la más alta del histograma, alrededor de 125-130
-BPM, separadas por un valle en torno a 105-115 BPM. Lo relevante es que la media
-y la mediana son casi idénticas y aun así no corresponden a ninguna de las dos
-modas: la línea roja cae en el espacio entre ambos grupos. Describir el
-repertorio como "canciones de unos 120 BPM" es estadísticamente correcto y
-musicalmente engañoso, porque oculta que conviven dos repertorios rítmicos
-distintos.
-
-La explicación musical es que esos dos picos corresponden a tradiciones de
-producción diferentes. La moda baja es el pulso habitual del hip-hop, el R&B y
-la balada pop de tempo medio. La moda alta coincide con el tempo canónico de la
-música de baile de raíz house y de la corriente EDM que dominó las listas en la
-segunda mitad del periodo, donde los 128 BPM funcionan como estándar de
-producción.
+La distribución no es estrictamente unimodal aparece una concentración secundaria más baja, alrededor de 90-100 BPM. Una explicación musical razonable es la presencia de baladas y canciones de R&B, géneros con tempos naturalmente más lentos que conviven en las listas de éxitos junto con el material más bailable.
 
 ## Ejercicio 7 — Análisis
 
