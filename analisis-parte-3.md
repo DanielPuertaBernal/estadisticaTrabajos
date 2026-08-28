@@ -6,9 +6,11 @@
 
 **Pregunta:** ¿en qué rango se concentra el repertorio? ¿Es unimodal o hay varios picos? Si hay más de uno, proponga una explicación musical.
 
-La mayor parte de las canciones se concentra entre 90 y 140 BPM, con un pico cerca de 120 BPM, tempo característico de géneros bailables como el pop y el hip hop, que dominan el catálogo.
+La mayor parte de las canciones se concentra entre 90 y 140 BPM, con el pico más alto entre 125 y 130 BPM, tempo característico de la música de baile de raíz house y del EDM que dominó las listas en la segunda mitad del periodo.
 
-La distribución no es estrictamente unimodal aparece una concentración secundaria más baja, alrededor de 90-100 BPM. Una explicación musical razonable es la presencia de baladas y canciones de R&B, géneros con tempos naturalmente más lentos que conviven en las listas de éxitos junto con el material más bailable.
+La distribución no es estrictamente unimodal aparece una segunda concentración más baja, alrededor de 95-105 BPM. Una explicación musical razonable es la presencia de baladas, hip hop y canciones de R&B, géneros con tempos naturalmente más lentos que conviven en las listas de éxitos junto con el material más bailable.
+
+Vale la pena notar que la media de 120.1 BPM no cae en ninguno de los dos picos, sino en el valle que los separa. Decir que "las canciones rondan los 120 BPM" es cierto en promedio pero engañoso: casi ninguna canción típica suena a ese tempo.
 
 ## Ejercicio 7 — Análisis
 

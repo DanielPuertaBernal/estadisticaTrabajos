@@ -9,7 +9,7 @@
 | danceability | 1.00 | -0.10 | 0.40 | -0.03 |
 | energy | -0.10 | 1.00 | 0.33 | 0.65 |
 | valence | 0.40 | 0.33 | 1.00 | 0.23 |
-| loudness | -0.03 | 0.23 | 0.65 | 1.00 |
+| loudness | -0.03 | 0.65 | 0.23 | 1.00 |
 
 La relación más fuerte es entre `energy` y `loudness` que es de r = 0.65, las canciones más enérgicas tienden a sonar  más fuerte. Le sigue `danceability` y `valence` con r = 0.40, esta es  moderada las canciones más bailables tienden a ser también más alegres. En contraste, `danceability` y `loudness` casi no se relacionan con r = -0.03.
 
@@ -31,6 +31,6 @@ lectura visual resultaría engañosa.
 
 **Pregunta:** caracterice dirección, fuerza y forma. ¿Sugiere relación lineal o hay curvatura? ¿Hay atípicos que inflen el coeficiente? ¿Qué no permite concluir esta correlación?
 
-La relación es positiva y tiene una fuerza moderada-alta,  a mayor energía, mayor volumen promedio de la canción. La nube de puntos sigue una tendencia lineal razonablemente clara, sin una curvatura marcada. No se observan atípicos evidentes que por sí solos estén inflando el coeficiente de forma artificial.
+La relación es positiva y tiene una fuerza moderada-alta,  a mayor energía, mayor volumen promedio de la canción. La nube de puntos sigue una tendencia lineal razonablemente clara, sin una curvatura marcada. Sí se ven algunos atípicos abajo a la izquierda, canciones acústicas muy suaves como *I See Fire* de Ed Sheeran (-20.5 dB) o *Mad World* de Gary Jules (-17.2 dB), pero no están inflando el coeficiente: si se sacan, r apenas baja de 0.65 a 0.64.
 
 Lo que no permite concluir esta correlación es que  no se puede afirmar que una canción suene más fuerte porque es enérgica y tampoco lo contrario Solo indica que ambas variables tienden a moverse juntas en el catálogo; la explicación real puede deberse a decisiones conjuntas de producción y mezcla que afectan ambos atributos a la vez.
