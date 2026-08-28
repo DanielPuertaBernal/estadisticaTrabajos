@@ -44,8 +44,10 @@ Findings from the inspection:
 
 ## Deliverable
 
-`Taller_EDA_Puerta_Bernal.py` - the submission: `#%%` cells, the ten exercises in
-order, and each analysis as a block comment right after the code that produces
-it, as the brief requires. `figuras/` holds the four generated charts to attach.
+`Taller_EDA_Puerta_Bernal.py` - the code: `#%%` cells with the ten exercises in
+order. `figuras/` holds the four generated charts to attach.
 
-The `analisis-parte-*.md` files carry the same analyses as standalone reports.
+The written analyses live in the `analisis-parte-*.md` reports, one per part of
+the brief; the script only points to them. The brief itself asks for the
+analyses as block comments inside the script, but the instructor asked for them
+to be kept in the reports instead.
