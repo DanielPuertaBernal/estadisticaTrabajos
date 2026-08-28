@@ -281,3 +281,58 @@ fig.tight_layout()
 plt.show()
 
 # ANALISIS EJERCICIO 10: ver `analisis-parte-4.md`
+
+
+# %% ============================================================================
+# PUNTO OPCIONAL - PREGUNTA PROPIA
+# ==============================================================================
+
+print("\n" + "=" * 78)
+print("  PUNTO OPCIONAL")
+print("=" * 78)
+
+# %% Punto opcional - ¿Deja la ola del EDM una huella medible en el tempo?
+
+print("\n--- Punto opcional: la huella del EDM en el tempo de los exitos ---")
+
+# PREGUNTA: en el ejercicio 6 se atribuyo la moda de 125-130 BPM a la corriente
+# EDM que domino las listas. Si esa explicacion es correcta, la proporcion de
+# exitos con tempo de baile debe crecer y decrecer con esa moda a lo largo de
+# los anos. Se compara contra la etiqueta de genero para separar el sonido de
+# la etiqueta. Se acota a 2000-2019 porque los anos de los extremos tienen
+# muy pocos registros.
+
+periodo = df[(df["year"] >= 2000) & (df["year"] <= 2019)].copy()
+periodo["tempo_baile"] = periodo["tempo"].between(120, 135)
+periodo["genero_dance"] = periodo["genre"].str.contains("Dance/Electronic")
+
+evolucion = periodo.groupby("year")[["tempo_baile", "genero_dance"]].mean() * 100
+
+print(evolucion.round(1))
+
+fig, ax = plt.subplots(figsize=(11, 6.5))
+
+ax.axvspan(2010, 2014, color="#FFD9B3", alpha=0.45, zorder=0,
+           label="Auge del EDM (2010-2014)")
+ax.plot(evolucion.index, evolucion["tempo_baile"], marker="o", linewidth=2.5,
+        color="#C44E52", label="Canciones con tempo de 120-135 BPM")
+ax.plot(evolucion.index, evolucion["genero_dance"], marker="s", linewidth=2.5,
+        color="#4C72B0", linestyle="--",
+        label="Canciones etiquetadas Dance/Electronic")
+
+ax.annotate(f"Máximo: {evolucion['tempo_baile'].max():.1f} % en 2012",
+            xy=(2012, evolucion["tempo_baile"].max()), xytext=(2013.4, 54),
+            fontsize=9, arrowprops=dict(arrowstyle="->", color="#C44E52"))
+
+ax.set_title("La huella del EDM en los éxitos globales: "
+             "el género se queda, el tempo se va", fontsize=13, pad=12)
+ax.set_xlabel("Año de publicación")
+ax.set_ylabel("Porcentaje de los éxitos del año (%)")
+ax.set_xticks(range(2000, 2020, 2))
+ax.set_ylim(0, 60)
+ax.legend(loc="upper left", fontsize=9)
+
+fig.tight_layout()
+plt.show()
+
+# ANALISIS PUNTO OPCIONAL: ver `analisis-punto-opcional.md`

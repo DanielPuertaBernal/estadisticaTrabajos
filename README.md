@@ -45,9 +45,9 @@ Findings from the inspection:
 ## Deliverable
 
 `Taller_EDA_Puerta_Bernal.py` - the code: `#%%` cells with the ten exercises in
-order. `figuras/` holds the four generated charts to attach.
+order. `figuras/` holds the five generated charts to attach.
 
 The written analyses live in the `analisis-parte-*.md` reports, one per part of
-the brief; the script only points to them. The brief itself asks for the
+the brief, plus `analisis-punto-opcional.md` for the bonus question; the script only points to them. The brief itself asks for the
 analyses as block comments inside the script, but the instructor asked for them
 to be kept in the reports instead.
