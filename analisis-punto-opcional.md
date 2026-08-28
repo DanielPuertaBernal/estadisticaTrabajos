@@ -1,18 +1,15 @@
-# Punto opcional — La huella del EDM en el tempo de los éxitos
+# Punto opcional — Análisis
 
-## Pregunta
+**Resultados:** entre 2000 y 2009 la proporción de éxitos con tempo de 120-135
+BPM se mantiene cerca del 20 %. En 2010 salta al 42 %, alcanza su máximo en 2012
+con el 48.7 % y desde 2014 cae hasta volver al 20 %, donde permanece hasta 2019.
+La etiqueta Dance/Electronic pasa del 7 % a superar el 25 % desde 2010 y se
+mantiene ahí hasta el final del periodo.
 
-En el ejercicio 6 se atribuyó la segunda moda del histograma —la concentración
-de canciones alrededor de 125-130 BPM— a la corriente EDM que dominó las listas
-globales. Esa explicación quedó como afirmación sin comprobar. La pregunta es
-si los datos la sostienen: **si el auge del EDM es la causa de esa moda, la
-proporción de éxitos con tempo de baile debería crecer y decrecer a lo largo de
-los años siguiendo esa ola.** Para separar el sonido de la etiqueta comercial,
-la serie se contrasta con el porcentaje de canciones marcadas como
-Dance/Electronic. El análisis se acota a 2000-2019 porque 1998, 1999 y 2020
-tienen muy pocos registros.
-
-## Hallazgo
+**Pregunta:** en el ejercicio 6 se atribuyó la moda de 125-130 BPM a la
+corriente EDM. ¿Sostienen los datos esa explicación? Si el auge del EDM es la
+causa de esa moda, la proporción de éxitos con tempo de baile debería crecer y
+decrecer siguiendo esa ola.
 
 **La hipótesis se confirma, y el contraste con la etiqueta revela algo que no
 se esperaba.** Entre 2000 y 2009 la proporción de éxitos con tempo de 120-135
