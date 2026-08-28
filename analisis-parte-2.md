@@ -1,11 +1,15 @@
 # Parte 2 — Estadística descriptiva univariada
 
-## Ejercicio 3 — Duración en minutos
+## Ejercicio 3 — Análisis
 
-`duration_min` se obtiene dividiendo `duration_ms` entre 60 000, producto de los
-1000 milisegundos de un segundo por los 60 segundos de un minuto. La primera
-canción, con 211 160 ms, queda en 3.52 minutos: una duración plausible que
-confirma que el factor de conversión es correcto.
+**Resultados:** se crea la columna `duration_min` dividiendo `duration_ms` entre
+60 000.
+
+El divisor sale de multiplicar los 1000 milisegundos de un segundo por los 60
+segundos de un minuto. La conversión se verifica con la primera fila: *Oops!...I
+Did It Again* registra 211 160 ms y queda en 3.52 minutos, una duración
+plausible para una canción pop. Si el resultado hubiera dado 211 o 0.06, el
+factor estaría equivocado.
 
 ## Ejercicio 4 — Análisis
 

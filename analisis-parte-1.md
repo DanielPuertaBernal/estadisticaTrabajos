@@ -1,10 +1,14 @@
 # Parte 1 — Ingesta y limpieza inicial
 
-## Ejercicio 1 — Carga y primeras filas
+## Ejercicio 1 — Análisis
 
-Se carga `data/07 - canciones.csv` con `pandas.read_csv()` y se inspeccionan las
-primeras cinco filas. Se usa el `.csv` y no el `.xlsx` porque solo el primero
-incluye la columna `explicit`, necesaria en los ejercicios 5 y 7.
+**Resultados:** el archivo se carga correctamente y `df.head()` muestra las
+primeras 5 filas con las 18 columnas del conjunto.
+
+Se carga con `pandas.read_csv()` y no con `read_excel()` porque solo el `.csv`
+incluye la columna `explicit`. El `.xlsx` de la misma carpeta es una versión
+anterior de 17 columnas y sin esa variable no se podrían resolver los ejercicios
+5 y 7.
 
 ## Ejercicio 2 — Análisis
 
