@@ -42,7 +42,10 @@ Findings from the inspection:
   outside that range).
 - `key` and `mode` are integers encoding categories, not quantities.
 
-## Analysis documents
+## Deliverable
 
-- `analisis-parte-2.md` - exercises 3, 4, 5
-- `analisis-parte-3.md` - exercises 6, 7
+`Taller_EDA_Puerta_Bernal.py` - the submission: `#%%` cells, the ten exercises in
+order, and each analysis as a block comment right after the code that produces
+it, as the brief requires. `figuras/` holds the four generated charts to attach.
+
+The `analisis-parte-*.md` files carry the same analyses as standalone reports.
